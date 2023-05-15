@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './header.css'
 
 export default function Header() {
@@ -9,7 +10,7 @@ export default function Header() {
                     <input type='search' placeholder='Procure seus animes'/>
                 </div>
                 <div className='btn-login-registro'>
-                    <button>LOGIN</button>
+                    <button><Link to='/login'>LOGIN</Link></button>
                     <button>REGISTRO</button>
                 </div>
                 <div className='btn-modo'>

@@ -47,6 +47,11 @@
     letter-spacing: 2px;
 }
 
+.btn-login-registro a {
+    color: white;
+    text-decoration: none;
+}
+
 .btn-modo {
     position: absolute;
     right: 2.5%;

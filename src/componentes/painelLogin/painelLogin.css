@@ -1,0 +1,34 @@
+.btn-voltar {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    border: none;
+    border-radius: 50px;
+    background-color: #21ce9c;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.btn-voltar a {
+    color: white;
+    text-decoration: none;
+}
+
+.area-login {
+    background-color: #de3163;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.painel-login {
+    background-color: #21ce9c;
+    width: 25vw;
+    height: 50vh;
+}
